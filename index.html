@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amitanshu Yadav | Personal Profile</title>
+  <meta name="description" content="Amitanshu Yadav - B.Tech Information Technology student at MIT Manipal, backend and problem-solving enthusiast.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-brand" href="#top">Amitanshu Yadav</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- Intro -->
+    <section class="hero">
+      <img class="photo" src="profile.png" alt="Portrait of Amitanshu Yadav" width="200" height="200">
+      <div class="hero-text">
+        <h1>Amitanshu Yadav</h1>
+        <p class="role">B.Tech Information Technology student</p>
+        <p class="intro">Hi, I'm Amitanshu. I enjoy building backend systems, solving algorithm problems and turning data into working products.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-outline" href="#projects">See my projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About me</h2>
+      <p>I'm a second-year Information Technology student at Manipal Institute of Technology. I like understanding how things work under the hood, whether that is a search algorithm solving a Rubik's Cube or a chat server handling thousands of connections at once.</p>
+      <p>Most of my time goes into backend development, data structures and algorithms, and machine learning basics. I learn best by building projects and measuring how they perform.</p>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Manipal Institute of Technology</h3>
+          <span class="date">2024 – 2028</span>
+        </div>
+        <p class="meta">B.Tech in Information Technology · CGPA 8.09 · Manipal, India</p>
+        <p>Coursework: Data Structures and Algorithms, Database Management Systems, Operating Systems, Data Analytics, Object Oriented Programming, Computer Networks.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head">
+          <h3>Kendriya Vidyalaya</h3>
+          <span class="date">2021 – 2023</span>
+        </div>
+        <p class="meta">Senior Secondary (Class XII) · 90.8% · Bangalore, India</p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <article class="card">
+          <h3>UnAlone</h3>
+          <p class="stack">React Native, TypeScript, NestJS, MongoDB, Redis, Socket.IO, Docker, AWS</p>
+          <ul>
+            <li>Location-based social platform with REST APIs, JWT authentication and MongoDB geospatial indexing for finding nearby meetups.</li>
+            <li>Real-time chat using Socket.IO and Redis Pub/Sub, supporting 5K+ concurrent connections with under 150 ms P95 latency.</li>
+            <li>Redis caching and query tuning sustained 2K+ requests/sec with under 1% errors in load tests.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Rubik's Cube Solver</h3>
+          <p class="stack">C++, OOP, Graph Search, Multithreading</p>
+          <ul>
+            <li>Modular 3×3 solver with interchangeable cube representations behind one abstract interface.</li>
+            <li>Compared DFS, BFS, IDDFS and Korf's IDA* search strategies.</li>
+            <li>Corner and edge pattern databases solve 14-move scrambles in 2.05 s on average, with multithreaded database generation.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Loan Approval Prediction API</h3>
+          <p class="stack">Python, FastAPI, Scikit-learn, Pandas, Pydantic</p>
+          <ul>
+            <li>End-to-end FastAPI service with OpenAPI docs and Pydantic request validation.</li>
+            <li>Leak-free preprocessing pipeline shared by training and inference, saved with joblib.</li>
+            <li>Cross-validation and GridSearchCV cut the Random Forest accuracy gap from 16 to 2.5 points, with 80.8% test accuracy.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <ul class="tags">
+          <li>C++</li><li>SQL</li><li>PL/SQL</li><li>Java</li><li>Python</li><li>JavaScript</li><li>TypeScript</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Web development</h3>
+        <ul class="tags">
+          <li>Node.js</li><li>Express.js</li><li>NestJS</li><li>Socket.IO</li><li>MongoDB</li><li>Docker</li><li>AWS</li><li>Redis</li><li>K6</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Data analytics and AI/ML</h3>
+        <ul class="tags">
+          <li>Pandas</li><li>Matplotlib</li><li>Seaborn</li><li>FastAPI</li><li>Scikit-learn</li><li>Traditional ML</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section id="achievements">
+      <h2>Achievements</h2>
+      <ul class="plain-list">
+        <li><strong>Hopeless Opus:</strong> Top 3 in a national level problem solving event with over 1000 participants.</li>
+        <li><strong>200+ problems</strong> solved on LeetCode and Codeforces.</li>
+      </ul>
+    </section>
+
+    <!-- Interests -->
+    <section id="interests">
+      <h2>Interests and hobbies</h2>
+      <ul class="tags tags-warm">
+        <li>Competitive programming</li>
+        <li>Solving puzzles</li>
+        <li>Backend system design</li>
+        <li>Machine learning</li>
+        <li>Building side projects</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>I'm open to internships, collaborations and conversations about projects. The quickest way to reach me is email.</p>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:Amitanshuyadav55@gmail.com">Amitanshuyadav55@gmail.com</a></li>
+        <li><span>Phone</span><a href="tel:+919662593844">+91 96625 93844</a></li>
+        <li><span>LeetCode</span><a href="https://leetcode.com/u/cd_Max09/" target="_blank" rel="noopener">Visit my profile</a></li>
+        <li><span>GitHub</span><a href="https://github.com/Amitanshuy" target="_blank" rel="noopener">Visit my profile</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 Amitanshu Yadav</p>
+  </footer>
+
+</body>
+</html>
